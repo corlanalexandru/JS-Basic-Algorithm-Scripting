@@ -1,12 +1,13 @@
 
 // Caesars Cipher ROT13->values of the letters are shifted by 13 places
+
 function rot13(str) {
   var myArr = [];
   var cipherArr = [];
   var decryptedArr = [];
   var decryptedStr;
 
-  //65-90 the range of alphabet
+  //65-90 the range of alphabet A-Z
 
 for(var i = 0; i < str.length; i++){
 
